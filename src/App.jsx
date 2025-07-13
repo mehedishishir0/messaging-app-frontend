@@ -2,6 +2,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Signup from '../components/Signup'
 import Login from '../components/Login'
 import Home from '../components/Home'
+import axios from 'axios'
+axios.defaults.withCredentials = true
 
 const router = createBrowserRouter([
   {
